@@ -4,18 +4,8 @@
 #include <IconsMaterialDesign.h>
 #include <Globals.h>
 
-#include "Glacier/ZGameLoopManager.h"
-#include "Glacier/ZScene.h"
-#include "Glacier/CCom.h"
-
-#include "src/Repository.h"
-#include "src/DefaultItemPoolRepository.h"
-#include "src/RNG.h"
-
-#include "src/randomizers/Randomizer.h"
-#include "src/randomizers/Identity.h"
-#include "src/randomizers/world/default.h"
-#include "src/randomizers/world/AllExplosives.h"
+#include <Glacier/ZGameLoopManager.h>
+#include <Glacier/ZScene.h>
 
 void ZHMRandomizer::OnEngineInitialized() {
     Logger::Info("ZHMRandomizer has been initialized!");
