@@ -29,6 +29,8 @@ void ZHMRandomizer::OnDrawMenu() {
     if (ImGui::Button(ICON_MD_LOCAL_FIRE_DEPARTMENT " ZHMRandomizer")) {
         m_ShowMessage = !m_ShowMessage;
     }
+
+
 }
 
 void ZHMRandomizer::OnDrawUI(bool p_HasFocus) {
